@@ -1,0 +1,30 @@
+<library>
+  <repositories>
+    <repository>
+      <path>../ext/modm/repo.lb</path>
+    </repository>
+  </repositories>
+  <options>
+    <option name="modm:target">stm32f031k6t6</option>
+    <option name="modm:build:project.name">bldc-servo</option>
+    <option name="modm:build:openocd.cfg">openocd.cfg</option>
+    <option name="modm:platform:uart:1:buffer.tx">128</option>
+    <option name="modm:platform:uart:1:buffer.rx">128</option>
+  </options>
+  <modules>
+    <module>modm:architecture:atomic</module>
+    <module>modm:architecture:delay</module>
+    <module>modm:build:scons</module>
+    <module>modm:cmsis:core</module>
+    <module>modm:cmsis:device</module>
+    <module>modm:docs</module>
+    <module>modm:platform:adc</module>
+    <module>modm:platform:clock</module>
+    <module>modm:platform:core</module>
+    <module>modm:platform:gpio</module>
+    <module>modm:platform:timer:1</module>
+    <module>modm:platform:uart:1</module>
+    <module>modm:processing:timer</module>
+
+  </modules>
+</library>

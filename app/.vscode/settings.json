@@ -1,0 +1,7 @@
+{
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/modm/src",
+        "${workspaceFolder}/modm/ext/cmsis/device",
+        "${workspaceFolder}/modm/ext/cmsis/core"
+    ]
+}
