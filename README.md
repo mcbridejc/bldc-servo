@@ -4,7 +4,7 @@ This project turns a brushless motor and magnetic encoder into a servo with abso
 control. It runs on the Mikroe [STSPIN233 Click board](https://www.mikroe.com/stspin233-click)
 board. 
 
-![STSTPIN233 Click](./docs/stspin233_click.jpg?raw=true)
+![STSTPIN233 Click](./doc/stspin233_click.jpg?raw=true)
 
 It is controlled by serial commands sent at 115200, which can provide position targets, as well as 
 torque commands, or initiate an encoder calibration sweep.
